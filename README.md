@@ -1,6 +1,6 @@
 # Easy_Recycle_Telegram_Bot
 
-![StopWatch](https://github.com/RyzhkovIlya/All_materials/blob/main/video_2021-10-25_11-21-03%20(4).gif)
+![StopWatch](https://github.com/RyzhkovIlya/All_materials/blob/main/new_video%20(3).gif)
 
 ## Задача
 
