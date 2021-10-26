@@ -10,4 +10,5 @@ nms_kind: greedynms (1), beta = 0.600000
  Detection layer: 139 - type = 28 
  Detection layer: 150 - type = 28 
  Detection layer: 161 - type = 28 
-C:/Final_Bot/data/prediction.jpg: Predicted in 281.926000 milli-seconds.
+C:/Easy_Recycle/data/prediction.jpg: Predicted in 285.145000 milli-seconds.
+Can be recycled: 62%	(left_x:  135   top_y:  461   width:  142   height:  181)

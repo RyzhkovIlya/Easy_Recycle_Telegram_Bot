@@ -5,7 +5,7 @@ from api.static import TRY_AGAIN
 def result_out():
     '''Функция принимает возвращает список классов, которые были обнаружены на фотографии.'''
 
-    os.system(f'{PH}darknet.exe detector test {PH}cfg/coco.data {PH}cfg/custom-yolov4-detector.cfg {PH}72custom-yolov4-detector_best.weights C:/Final_Bot/data/prediction.jpg -thresh 0.8 -dont-show -ext_output < {PH}data/train.txt > {PH}result.txt')
+    os.system(f'{PH}darknet.exe detector test {PH}cfg/coco.data {PH}cfg/custom-yolov4-detector.cfg {PH}72custom-yolov4-detector_best.weights C:/Easy_Recycle/data/prediction.jpg -thresh 0.8 -dont-show -ext_output < {PH}data/train.txt > {PH}result.txt')
     with open(f'{PH}result.txt') as f:
         text = f.read()
         text = text.split('\n')
