@@ -1,0 +1,7 @@
+classes= 6
+train  = C:/Final_Bot/bot/api/core/darknet-master/data/train.txt
+valid  = C:/Final_Bot/bot/api/core/darknet-master/data/valid.txt
+#valid = data/coco_val_5k.list
+names = C:/Final_Bot/bot/api/core/darknet-master/data/coco.names
+backup = C:/Final_Bot/bot/api/core/darknet-master/results/
+eval=coco
