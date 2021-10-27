@@ -25,4 +25,6 @@
 В качестве сервиса был выбран телеграм Бот @CleaSanBot. При создании бота была использвана библиотека aiogram, которая помогла реализовать State запроты, запросы пользователя, клавиауры ReplyKeyboardMarkup и InlineKeyboardMarkup и отправку сообщениия пользователю.
 ## Способ проверки работоспособности кода
 1) Скачать все библиотеки из requirements.txt
-2) Запустить скрипт bot/_bot.py в любом IDE.
+2) В bot/api/ создать папку database
+3) Из [Googve drive](https://drive.google.com/drive/folders/1_K7dKHxCFKUMlBCmlu7Rq7LuF9AnW5LM?usp=sharing) скачать датасет и поместить в database. Веса поместить в папку bot/api/core/darknet-master/
+4) Запустить скрипт bot/_bot.py .
