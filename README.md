@@ -1,6 +1,6 @@
 # Easy_Recycle_Telegram_Bot
 
-![new_video (3)](https://user-images.githubusercontent.com/88197584/139063683-8247bfc2-6f8e-433f-85c9-d13d9d855402.gif)
+![video_2021-10-28_09-47-35 (online-video-cutter com)](https://user-images.githubusercontent.com/88197584/139203581-8459bed5-8be6-47a2-ac12-d8cc23ae9fac.gif)
 
 ## Задача
 
