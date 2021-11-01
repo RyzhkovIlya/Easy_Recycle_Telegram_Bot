@@ -1,6 +1,8 @@
 # Easy_Recycle_Telegram_Bot
 
-https://t.me/CleanSanBot
+Запустить сервис можно по ссылке https://t.me/CleanSanBot или отсканировав QR-код
+
+<a href="http://qrcoder.ru" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Ft.me%2FCleanSanBot&6&0" width="198" height="198" border="0" title="QR код"></a>
 
 ![video_2021-10-28_09-47-35 (online-video-cutter com)](https://user-images.githubusercontent.com/88197584/139203581-8459bed5-8be6-47a2-ac12-d8cc23ae9fac.gif)
 
