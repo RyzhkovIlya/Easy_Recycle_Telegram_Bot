@@ -124,7 +124,7 @@ async def process_callback_button2(callback_query: types.CallbackQuery, state: F
     user_id = callback_query.from_user.id
     async with state.proxy() as data:
         user_calss = data['my_classes']
-    result_type = {PLASTIC:'1-9 Plastic', PAPER:'20-23 Paper', METAL:'40-41 Metal', ORGAN:'50-61 Organic materialc', GLASS:'70-79 Glass', COMPOS:'80-97 Composite materials', ALL:set(user_calss)}
+    result_type = {PLASTIC:'1-9 Plastic', PAPER:'20-23 Paper', METAL:'40-41 Metal', ORGAN:'50-61 Organic materialc', GLASS:'70-79 Glass', COMPOS:'80-97 Composite materials', ALL:user_calss}
     await bot.send_message(user_id, ADDRESS + recommender_address([result_type[callback_query.data]]), parse_mode = "Markdown") # Отправка пользователю 3х адрессов пунктов приема пластика
 
 @dp.message_handler(content_types=['photo'])
