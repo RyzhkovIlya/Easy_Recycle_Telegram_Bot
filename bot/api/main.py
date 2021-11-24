@@ -1,7 +1,7 @@
 import logging
 from api.core.distnce import distance
 from api.core.plastic import pred_plastic
-from api.static import BAD_PLASTIC, NOT_LOC
+from api.static import BAD_PLASTIC
 logging.basicConfig(filename='log.log',level=logging.INFO) 
 
 def recommender_address(classes):

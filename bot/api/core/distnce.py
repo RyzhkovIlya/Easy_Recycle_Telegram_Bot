@@ -12,8 +12,11 @@ def distance(trash_class):
     df['Coordinates'] = df['Coordinates'].apply(lambda x: eval(x)) # Каждый элемент признака Coordinates переводим в питоновский формат
     if len(new_trash_class) > 1: # Проверяем,что длина списка с новыми классами была больше 1
         df_class = df[df['Class'].apply(lambda x: all([i in x for i in new_trash_class]))] # Оставляем только те записи в датасете, где в признакке Class присутствует любой класс из списка новых классов
+<<<<<<< HEAD
         if df_class.empty:
             return EMPTY_DF
+=======
+>>>>>>> 75b424e0ae03b7d03309293a80d48961d610c888
     else:
         df_class = df[df['Class'].apply(lambda x: new_trash_class[0] in x)] # Оставляем только те записи в датасете, где в признакке Class присутствует найденный класс из списка нового класса
     df_class['dist_point'] = df_class['Coordinates'].apply(lambda x: int(func_dist(x))) # Создаем новый признак, куда заносим найденные расстояния от пользователя, до пунктов приема отходов
