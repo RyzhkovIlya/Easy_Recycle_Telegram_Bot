@@ -1,7 +1,7 @@
 classes= 2
-train  = C:/Final_Bot/bot/api/core/darknet-master/data/train_plastic.txt
-valid  = C:/Final_Bot/bot/api/core/darknet-master/data/valid_plastic.txt
+train  = bot/api/core/darknet-master/data/train_plastic.txt
+valid  = bot/api/core/darknet-master/data/valid_plastic.txt
 #valid = data/coco_val_5k.list
-names = C:/Final_Bot/bot/api/core/darknet-master/data/coco_plastic.names
-backup = C:/Final_Bot/bot/api/core/darknet-master/result/
+names = bot/api/core/darknet-master/data/coco_plastic.names
+backup = bot/api/core/darknet-master/result/
 eval=coco
